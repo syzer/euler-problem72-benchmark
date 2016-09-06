@@ -1,5 +1,3 @@
-'use strict'
-
 const calc = () => {
     const max = 1000000
     const phi = Array.from({length: max + 1}, (v, i) => i)
