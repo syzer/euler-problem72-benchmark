@@ -1,4 +1,4 @@
-const max = 1000000;
+const max = 1000000
 
 const calc = () => {
     // arrays are slower, especially the index lookup of an element
@@ -16,14 +16,15 @@ const calc = () => {
     return out
 }
 
-function calc_faster() {
+// TODO fix the output
+function calcFaster() {
     // by using native arrays, the memory is allocated continuously and index lookup is much faster
-    const phi = new Int32Array(max+1);
+    const phi = new Int32Array(max + 1);
     let out = 0;
     let i, j, phi_i, fac;
 
     // use for loops, their usually faster than .map
-    for(i=0; i <= max; i++) {
+    for (i = 0; i <= max; i++) {
         phi[i] = i;
     }
 
@@ -43,5 +44,5 @@ function calc_faster() {
 }
 
 
-console.log(calc_faster());
+console.log(calc())
 

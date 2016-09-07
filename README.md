@@ -5,18 +5,20 @@ problem 72 from project euler
 
 # benchmark 
 
-``` 
-    time node problem72.js
-    303963552391
-    0.29 real         0.27 user         0.01 sys
-```
-
+#### python
 ```
     time python problem72.py 
     303963152391.0
     1.54 real         1.47 user         0.06 sys
 ```
 
+``` 
+    time node problem72.js
+    303963552391
+    0.29 real         0.27 user         0.01 sys
+```
+
+#### node
 node is ~5 times faster than python
 
 ```
@@ -24,6 +26,18 @@ node is ~5 times faster than python
     303963552391        
     0.20 real         0.19 user         0.07 sys
 ```
+
+where optimized node (thanks munxar!) runs even faster:
+
+```
+    time node problem72.js
+    303963630889
+    0.16 real         0.14 user         0.01 sys
+```
+but gives wrong answer :(
+
+
+#### golang
 
 go compiles and runs ~50% faster than node
 
@@ -34,6 +48,9 @@ go compiles and runs ~50% faster than node
     0.05 real         0.07 user         0.01 sys
 ```
 compiled golang is ~ 5 - 6 faster than `node`
+
+
+#### c
 
 run c code
 ```
