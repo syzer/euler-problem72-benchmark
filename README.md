@@ -34,3 +34,14 @@ go compiles and runs ~50% faster than node
     0.05 real         0.07 user         0.01 sys
 ```
 compiled golang is ~ 5 - 6 faster than `node`
+
+run c code
+```
+    make problem72
+    time ./problem72
+    303963552391
+    real    0m0.043s
+    user    0m0.049s
+    sys     0m0.016s
+```
+as expected equal to c code
