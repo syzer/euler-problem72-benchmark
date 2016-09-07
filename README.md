@@ -6,7 +6,7 @@ problem 72 from project euler
 # benchmark 
 
 ``` 
-    time node problem72.js                                                                                                                                                               
+    time node problem72.js
     303963552391
     0.29 real         0.27 user         0.01 sys
 ```
