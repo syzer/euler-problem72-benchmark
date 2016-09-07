@@ -22,12 +22,6 @@ problem 72 from project euler
 
 node is ~5 times faster than python
 
-```
-    time go run problem72.go 
-    303963552391        
-    0.20 real         0.19 user         0.07 sys
-```
-
 where optimized node (thanks munxar!) runs even faster:
 
 ```
@@ -39,6 +33,12 @@ but gives wrong answer :(
 
 
 #### golang
+
+```
+    time go run problem72.go 
+    303963552391        
+    0.20 real         0.19 user         0.07 sys
+```
 
 go compiles and runs ~50% faster than node
 
