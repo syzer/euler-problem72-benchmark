@@ -14,7 +14,7 @@ problem 72 from project euler
 
 #### node
 
-``` 
+```
     time node problem72.js
     303963552391
     0.29 real         0.27 user         0.01 sys
@@ -68,9 +68,10 @@ as expected equal to c code
 #### php
 
 ```
-    time php problem72.php 
-    303963552391        
+    time php problem72.php
+    303963552391
     1.08 real         1.01 user         0.06 sys
 ```
 
 well... still faster than python :)
+
