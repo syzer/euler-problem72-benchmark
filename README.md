@@ -85,3 +85,9 @@ as expected equal to c code
 
 well... still faster than python :)
 
+#### clojure
+
+```
+lein repl
+> (load-file "problem72.clj")
+```
