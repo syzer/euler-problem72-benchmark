@@ -13,14 +13,15 @@ func calc() int {
 		phi[i] = i
 	}
 
-	var out int = 0
+	out := 0
 	var i int
 	var j int
-
+	var fac float32
 	for i = 2; i <= limit; i++ {
 		if (phi[i] == i) {
+			fac = (float32(i) - 1.0) / float32(i)
 			for j = i; j <= limit; j += i {
-				phi[j] = phi[j] / i * (i - 1)
+				phi[j] = int(float32(phi[j]) * fac)
 			}
 		}
 		out += phi[i]
@@ -28,5 +29,4 @@ func calc() int {
 
 	return out
 }
-
 

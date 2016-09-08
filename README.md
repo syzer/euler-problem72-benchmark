@@ -25,12 +25,10 @@ node is ~5 times faster than python
 where optimized node (thanks munxar!) runs even faster:
 
 ```
-    time node problem72.js
-    303963630889
+    time node optimizedProblem72.js
+    303963552391
     0.16 real         0.14 user         0.01 sys
 ```
-but gives wrong answer :(
-
 
 #### golang
 
@@ -50,6 +48,18 @@ go compiles and runs ~50% faster than node
 ```
 compiled golang is ~ 5 - 6 faster than `node`
 
+thanks (thanks munxar!)
+
+```
+    time go run optimizedProblem72.go
+    303963552391        0.18 real         0.13 user         0.07 sys
+```
+
+compiled optimized go 
+```
+    time ./optimizedProblem72
+    303963552391        0.02 real         0.02 user         0.00 sys
+```
 
 #### c
 
@@ -58,9 +68,9 @@ run c code
     make problem72
     time ./problem72
     303963552391
-    real    0m0.043s
-    user    0m0.049s
-    sys     0m0.016s
+    real    0m0.023s
+    user    0m0.019s
+    sys     0m0.006s
 ```
 as expected equal to c code
 
