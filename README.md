@@ -87,7 +87,19 @@ well... still faster than python :)
 
 #### clojure
 
+Thanks fterrier!
+
 ```
-lein repl
-> (load-file "problem72.clj")
+    lein repl
+    > (load-file "problem72.clj")
 ```
+
+or
+
+```
+    time lein problem72.clj
+    1.47 real         4.16 user         0.21 sys
+```
+(when it is not compiled to java)
+
+Most elegant solution so far.
