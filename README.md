@@ -103,3 +103,13 @@ or
 (when it is not compiled to java)
 
 Most elegant solution so far.
+
+#### java
+
+```
+javac Problem72.java
+time java Problem72
+```
+
+
+
