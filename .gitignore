@@ -106,3 +106,5 @@ pip-selfcheck.json
 .idea
 problem72
 optimizedProblem72
+
+*.class
