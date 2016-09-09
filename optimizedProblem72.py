@@ -11,6 +11,6 @@ def calc():
 
         out += phi[x]
 
-    return out
+    print(out)
 
-print(calc())
+calc()
