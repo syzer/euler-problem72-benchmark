@@ -130,3 +130,6 @@ Not bad... almost as fast as node.js
     time java Problem72
     0.26 real         0.39 user         0.06 sys
 ```
+
+## haskell
+
