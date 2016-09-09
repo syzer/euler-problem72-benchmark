@@ -5,12 +5,24 @@ problem 72 from project euler
 
 # benchmark 
 
+
 ## python
 ```
     time python problem72.py 
     303963152391.0
     1.54 real         1.47 user         0.06 sys
 ```
+
+optimized python (thanks krtek4!)
+ 
+it is head-to-head with php:
+
+```
+    time python optimizedProblem72.py 
+    303963152391.0
+    1.07 real         1.00 user         0.06 sys
+```
+
 
 ## node
 
@@ -29,6 +41,7 @@ where optimized node (thanks munxar!) runs even faster:
     303963552391
     0.16 real         0.14 user         0.01 sys
 ```
+
 
 ## golang
 
@@ -60,6 +73,7 @@ compiled optimized go
     time ./optimizedProblem72
     303963552391        0.02 real         0.02 user         0.00 sys
 ```
+
 
 ## c
 
