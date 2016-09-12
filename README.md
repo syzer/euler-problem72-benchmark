@@ -141,3 +141,13 @@ Compiling and linking takes 4s... way longer than golang
     time ./problem72
     3.06 real         2.84 user         0.20 sys
 ```
+
+
+optimized
+```
+    ghc -o ./problem72 -O2 problem72.hs
+    time ./problem72 
+    0.42 real         0.33 user         0.07 sys
+```
+
+Haskell was over twice faster than php, and over 3 times faster than python.
