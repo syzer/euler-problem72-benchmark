@@ -17,4 +17,3 @@ const calc = () => {
 }
 
 console.log(calc())
-

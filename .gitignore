@@ -108,3 +108,5 @@ problem72
 optimizedProblem72
 
 *.class
+/problem72.hi
+/problem72.o

@@ -102,7 +102,7 @@ well... still faster than python :)
 
 ## clojure
 
-Thanks fterrier!
+Thanks fterrier !
 
 ```
     lein repl
@@ -133,3 +133,11 @@ Not bad... almost as fast as node.js
 
 ## haskell
 
+Thanks fterrier !
+Compiling and linking takes 4s... way longer than golang
+
+```
+    ghc -o ./problem72 problem72.hs
+    time ./problem72
+    3.06 real         2.84 user         0.20 sys
+```
