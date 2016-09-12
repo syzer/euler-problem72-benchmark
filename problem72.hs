@@ -27,3 +27,8 @@ solve72 until = do
 
 genArray :: Int -> IO (IOUArray Int Int)
 genArray until = newListArray (2,until) [2 .. until]
+
+main :: IO ()
+main = do
+  solution <- solve72 1000000
+  print solution
