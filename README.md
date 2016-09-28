@@ -131,6 +131,18 @@ Not bad... almost as fast as node.js
     0.26 real         0.39 user         0.06 sys
 ```
 
+Optimized java version is a bit faster
+
+Thanks ollin ! 
+
+```
+    javac OptimizedProblem72.java 
+    time java OptimizedProblem72
+    0.24 real         0.36 user         0.05 sys
+```
+
+It really requires to run as daemon or server to run faster
+
 ## haskell
 
 Thanks fterrier !
