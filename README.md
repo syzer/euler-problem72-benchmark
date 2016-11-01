@@ -24,6 +24,15 @@ it is head-to-head with php:
 ```
 
 
+## pypy
+
+Pypy make python really fly... faster than `node.js` !
+```
+    time pypy problem72.py
+    303963152391
+    0.14 real         0.10 user         0.03 sys
+```
+
 ## node
 
 ```
