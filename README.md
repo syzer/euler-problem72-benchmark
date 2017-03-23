@@ -152,7 +152,7 @@ Thanks ollin !
 
 It really requires to run as daemon or server to run faster
 
-## haskell
+## haskell
 
 Thanks fterrier !
 Compiling and linking takes 4s... way longer than golang
