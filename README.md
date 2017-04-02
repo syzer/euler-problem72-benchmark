@@ -121,7 +121,7 @@ Thanks fterrier !
 or
 
 ```
-    time lein problem72.clj
+    time lein exec problem72.clj
     1.47 real         4.16 user         0.21 sys
 ```
 (when it is not compiled to java)
