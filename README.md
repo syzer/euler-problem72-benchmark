@@ -1,5 +1,7 @@
 # WAT
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/syzer/euler-problem72-benchmark.svg)](https://greenkeeper.io/)
+
 problem 72 from project euler
 
 
